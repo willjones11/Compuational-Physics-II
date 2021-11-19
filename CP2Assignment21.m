@@ -1,4 +1,7 @@
-
+%{
+Compuational Physics II
+William Jones
+Developing Linear Congruential random number generator for fair and weighted die.
 %Assignment 2.1
 %Park-Miller Parameters
 pa = 7^5;
