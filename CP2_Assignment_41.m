@@ -1,4 +1,8 @@
-
+{%
+Computaional Physics II
+William Jones
+Proving the Chebyshev Inequality P(E>= x) <= <E>/x using the Wiener Process
+%}
 %Assignment 4.1        
 t=1; %total time
 n=10000; %number of data points
