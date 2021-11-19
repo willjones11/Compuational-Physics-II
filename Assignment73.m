@@ -1,3 +1,11 @@
+%{
+Compuational Physics II
+William Jones
+
+%}
+
+
+
 %Assingment 7.3
 np = 1000; %number of polymers
 N = 500; %number of steps
