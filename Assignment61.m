@@ -1,3 +1,9 @@
+%{
+Computational Physics II
+William Jones 
+Modeling the stochastic differential equation of a random walk of a particle dpt = (L(pt)dt + (2pt - pt^2)dWt
+where Wt is the Wiener Process, pt is the quantum trajectory as a function of time, and L(pt) = (3tsin(t))pt
+%}
 %Wiener Process        
 t=5; %total time
 n=100; %number of data points
