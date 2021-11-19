@@ -1,4 +1,23 @@
-
+%{
+Computational Physics II
+William Jones
+Random Walk of a particle undergoing brownian motion in two dimensions. Must me conditions 
+A)Without using any package, produce a random number generator to select waiting times from the set (1,2) so
+that the probability of selecting 1 is 3/5 and the probability of selecting 2 is 2/5. Produce a second pseudo-random
+number generator to select step sizes from the set (−2,−1,1,2) with equal probability. 
+B)Write a code to allow a 2D random walker to take steps (in x or y) with the waiting times and step sizes
+described in part A. For a single random walker, plot the distance from its initial position vs time. On average,
+after 200 steps, how far has such a random walker moved from its initial position? Produce a plot of the probability
+density function (PDF) for average distance from the origin at this time. 
+C)Modify your code from part B so that if the waiting time is 1, you select the step using a persistence of 4/7,
+meaning that the probability of taking a step in the same direction as the last step is 4/7. If the waiting time is 2,
+select the step with no persistence. On average, after 200 steps, how far has such a random walker moved from its
+initial position? Compare your result with that in part B. 
+D) Modify your code from part B so that at each step a particle has a 12% probability of splitting into two
+identical, independent particles. If a particle has split 10 times it vanishes. Calculate the probability that a particle
+reaches a distance of 200 steps from its origin. Compare this probability to a probability calculated from the PDF
+in part B.
+%}
 [average1, x1, y1, time] = randwalker1;%calling for part A
 iterations1 = 1:length(average1);%number of iterations 
 %plotting average distance vs. time 
