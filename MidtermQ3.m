@@ -1,4 +1,13 @@
-
+%{
+Computational Physics II
+William Jones 
+Using the Monte Carlo Method to solve
+h(x) = cos2(x) exp (−(x −3)4) + sin2 xexp (−(x −6)2) 
+Must meet conditons 
+A-find the mean using monte carlo
+B- produce quanitative error evaluation of Monte carlo mean with the mean calculated by numerical quadrature. Compare time taken
+C- plot a lognormal distribution and normal on the same graph
+%}
 %Mean by Monte Carlo Method
 N = 1000;
  %finding the sum 
