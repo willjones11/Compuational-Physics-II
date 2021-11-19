@@ -1,3 +1,8 @@
+%{
+Computational Physics II
+William Jones 
+Modeling 2D Brownian Walks of Particles in a Box
+%}
 np = 1000; %number of particles
 N =3000; %number of steps
 step = [ -1 1];%different steps it can take
