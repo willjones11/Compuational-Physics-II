@@ -1,3 +1,8 @@
+%{
+Computational Physics II
+William Jones
+Final Project Used the Monte Carlo Method to find the Area of the Mandlebrot Set
+%}
 %monte carlo 
 trueArea = 1.507;%True Approximate Area of the Mandelbrot
 points = 100000; %number of data points
