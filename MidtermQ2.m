@@ -1,3 +1,15 @@
+%{
+Computaional Physics II
+William Jones
+Solving Ornstein-Ulenbeck of the stochastic differential equation
+dXt = (theta1 - theta2Xt)dt + (theta3 - theta4Xt)dWt
+given (θ1,θ2,θ3,θ4) = (5,3,7,1) and Xtis initially 70. and Wt is the Wiener Process
+Also must meet conditions
+A-solve the code using a numerical scheme
+B- Find how long it takes to become a stationary process 
+C-in the stationary part average Xt and find other data.
+%}
+
 %for Wiener Process       
 t=5; %total time
 n=100; %number of data points
