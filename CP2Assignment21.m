@@ -1,7 +1,8 @@
 %{
 Compuational Physics II
 William Jones
-Developing Linear Congruential random number generator for fair and weighted die.
+Developing Linear Congruential random number generator for fair and weighted die. Also comparing these random number generator to the matlab package.
+
 %Assignment 2.1
 %Park-Miller Parameters
 pa = 7^5;
